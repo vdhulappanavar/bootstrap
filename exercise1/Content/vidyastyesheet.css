@@ -1,0 +1,12 @@
+
+
+
+
+
+
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+  background-color: #700;
+}
+//700 is  dark red color and 555 is dark gray
