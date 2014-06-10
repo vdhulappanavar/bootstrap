@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Forms</title>
+    <link href="content/bootstrap.css" rel="stylesheet" />   
+</head>
+<body>
+    <div class="container">		
+        <div class="row">
+            <div class="span12">
+                <h2>Default Form</h2>
+                <form action="/signup" method="post">
+                    <fieldset>
+					<legend>To get started, provide us with the following information:</legend>
+                        <label for="UserInfo_Email">Email:</label>
+                        <input id="UserInfo_Email" name="UserInfo.Email" type="text" value=""><br>
+						<label for="UserInfo_FirstName">First name:</label>
+                        <input id="UserInfo_FirstName" name="UserInfo.FirstName" type="text" value=""><br>
+						<select>
+						    <option> a</option>
+							<option> a</option>
+							<option> a</option>
+							<option> a</option>                                     
+                        </select><br>
+						<label> job title</label>
+						<input type="text" value="" />
+						<label class="checkbox"> <input type="checkbox"/>abcd </label>
+						<label class="radio"> <input type="radio"/> dfvc </label>
+						<label> describe yourself: </label>
+						<textarea class="block-level"row="3"></textarea ><br>
+						<input type="submit" value="sign-up" class="btn btn-primary"/>
+						<h2>Search</h2>
+						<input type="search" class="search-query"><br><br>
+						<input type="submit" class="btn btn-primary" >
+						<br><br>
+						<div class="input-prepend">
+						    <span class="add-on">@</span>
+							<input type="text" value="" placeholder="emailid">
+						</div>
+					</fieldset>
+                </form>
+            </div>
+        </div>
+		<div>
+		    
+		</div>
+    </div>
+</body>
+</html>
+
